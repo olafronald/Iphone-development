@@ -24,3 +24,11 @@ class Loading {
     return showDialog(
       context: navigatorKey.currentState!.overlay!.context,
       barrierDismissible: true,)
+
+      class MessageDialog {
+  MessageDialog();
+
+      class PdfViewer extends StatefulWidget {
+  final File? file;
+  final String? fileUrl;
+  final bool previewFlag;
